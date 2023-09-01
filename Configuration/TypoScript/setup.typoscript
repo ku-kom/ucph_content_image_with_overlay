@@ -13,4 +13,13 @@ tt_content.ucph_content_image_with_overlay {
     layoutRootPaths {
         101 = EXT:ucph_content_image_with_overlay/Resources/Private/Layouts/
     }
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = image
+            folders.field = file_folder
+            sorting.field = filelink_sorting
+            as = images
+        }
+    }
 }

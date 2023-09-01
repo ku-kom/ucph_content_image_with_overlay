@@ -37,9 +37,9 @@ call_user_func(function ($extKey ='ucph_content_image_with_overlay', $contentTyp
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
-                    bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext_formlabel,
+                    bodytext;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_text,
                     image,
-                    ucph_content_image_overlay_link
+                    ucph_content_image_overlay_link,
                     --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -57,9 +57,8 @@ call_user_func(function ($extKey ='ucph_content_image_with_overlay', $contentTyp
             'columnsOverrides' => [
                 'bodytext' => [
                     'config' => [
-                        'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_text',
                         'cols' => 30,
-                        'rows' => 10,
+                        'rows' => 5,
                         'max' => 100,
                         'placeholder' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_placeholder',
                         'eval' => 'trim'
@@ -97,7 +96,7 @@ call_user_func(function ($extKey ='ucph_content_image_with_overlay', $contentTyp
                         'types' => [
                             \TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => [
                                 'showitem' => '
-                                alternative,description,--linebreak--,crop,
+                                    alternative,--linebreak--,crop,
                                 --palette--;;filePalette'
                             ]
                         ],
