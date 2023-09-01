@@ -8,29 +8,33 @@ $overlay-font-size: $font-size-base * 2.25 !default;
     }
 
     .img-overlay-text {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 2rem;
-    }
-
-    @include media-breakpoint-up(sm) {
-        h2 {
-            font-size: $overlay-font-size;
-        }
+        padding: 1rem 0;
     }
 
     h2 {
         margin: 0;
+    }
 
-        &>span {
-            padding: 0 10px 4px 10px;
-            background-color: $white;
-            color: var(--bs-body-color);
-            box-shadow: 10px 0 0 0 $white, -10px 0 0 0 $white;
-            box-decoration-break: clone;
+    @include media-breakpoint-up(lg) {
+        h2 {
+            font-size: $overlay-font-size;
+
+            &>span {
+                padding: 0 10px 4px 10px;
+                background-color: $white;
+                color: var(--bs-body-color);
+                box-shadow: 10px 0 0 0 $white, -10px 0 0 0 $white;
+                box-decoration-break: clone;
+            }
+        }
+
+        .img-overlay-text {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 2rem;
         }
     }
 }
