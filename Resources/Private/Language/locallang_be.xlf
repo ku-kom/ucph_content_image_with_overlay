@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf" date="2023-08-21T10:27:00Z" product-name="ucph_content_image_with_overlay">
+        <header>
+            <authorName>Nanna Ellegaard</authorName>
+            <authorEmail>nel@adm.ku.dk</authorEmail>
+        </header>
+        <body>
+        <trans-unit id="ucph_content_image_with_overlay_title">
+            <source>Hero banner: Image with text overlay</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_image_with_overlay_desc">
+            <source>Image with text overlay.</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_image_with_overlay_alt">
+            <source>Optional. Alternative text</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_image_with_overlay_text">
+            <source>Overlay text</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_image_with_overlay_placeholder">
+            <source>Enter overlay text</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_image_with_overlay_link">
+            <source>Link</source>
+        </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,16 @@
+tt_content.ucph_content_image_with_overlay >
+# CTYPE: Text
+
+tt_content.ucph_content_image_with_overlay =< lib.contentElement
+tt_content.ucph_content_image_with_overlay {
+	templateName = ImageOverlay
+	templateRootPaths {
+        101 = EXT:ucph_content_image_with_overlay/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        101 = EXT:ucph_content_image_with_overlay/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        101 = EXT:ucph_content_image_with_overlay/Resources/Private/Layouts/
+    }
+}

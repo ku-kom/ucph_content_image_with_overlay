@@ -1,0 +1,32 @@
+mod.wizards.newContentElement.wizardItems {
+  image {
+    elements {
+      ucph_content_image_with_overlay {
+        iconIdentifier = ucph_content_image_with_overlay_icon
+        title = LLL:EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_title
+        description = LLL:EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_desc
+        tt_content_defValues {
+          CType = ucph_content_image_with_overlay
+        }
+      }
+    }
+    show := addToList(ucph_content_image_with_overlay)
+  }
+}
+
+mod.wizards.newContentElement.wizardItems {
+  text {
+    header = LLL:EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_wizard_tab
+    elements {
+      ucph_content_image_with_overlay {
+        iconIdentifier = ucph_content_image_with_overlay_icon
+        title = LLL:EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_title
+        description = LLL:EXT:ucph_content_image_with_overlay/Resources/Private/Language/locallang_be.xlf:ucph_content_image_with_overlay_desc
+        tt_content_defValues {
+          CType = ucph_content_image_with_overlay
+        }
+      }
+    }
+    show := addToList(ucph_content_image_with_overlay)
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "university-of-copenhagen/ucph-content-image-overlay",
+    "type": "typo3-cms-extension",
+    "description": "UCPH TYPO3 content element \"Image with text overlay\"",
+    "authors": [{
+        "name": "Nanna Ellegaard",
+        "role": "Developer"
+    }],
+    "homepage": "https://www.ku.dk/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "UniversityOfCopenhagen\\UcphContentImageWithOverlay\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "ucph_content_image_with_overlay"
+        }
+    }
+}
