@@ -25,6 +25,10 @@ $overlay-font-size: $font-size-base * 2.25 !default;
                 color: var(--bs-body-color);
                 box-shadow: 10px 0 0 0 $white, -10px 0 0 0 $white;
                 box-decoration-break: clone;
+
+                p {
+                    display: inline-block;
+                }
             }
         }
 
