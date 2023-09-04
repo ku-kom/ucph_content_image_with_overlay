@@ -27,7 +27,7 @@
                     </picture>
                     <f:if condition="{data.bodytext}">
                         <div class="img-overlay-text">
-                            <h2><span><f:format.html>{data.bodytext}</f:format.html></span></h2>
+                            <h2><span><f:format.stripTags allowedTags="<br>">{data.bodytext}</f:format.stripTags></span></h2>
                         </div>
                     </f:if>
                 </figure>
