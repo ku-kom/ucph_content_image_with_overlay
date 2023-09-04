@@ -18,6 +18,7 @@ $overlay-font-size: $font-size-base * 2.25 !default;
     @include media-breakpoint-up(lg) {
         h2 {
             font-size: $overlay-font-size;
+            line-height: 3.1rem;
 
             &>span {
                 padding: 0 10px 4px 10px;
